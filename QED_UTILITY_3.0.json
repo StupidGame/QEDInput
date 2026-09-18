@@ -929,15 +929,16 @@
           "design": {
             "label": {
               "type": "main_and_sub",
-              "main": "MD",
-              "sub": "# ` >"
+              "main": "MFM",
+              "sub": "←# ↑` →> ↓*"
             },
             "color": "normal"
           },
           "press_actions": [
             {
-              "type": "input",
-              "text": "# "
+              "type": "move_tab",
+              "tab_type": "custom",
+              "identifier": "qed_mfm_v30"
             }
           ],
           "variations": [
