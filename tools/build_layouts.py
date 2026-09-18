@@ -5,7 +5,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT / "archive" / "2.0"
-ORDER = ("KANA", "ABC", "ABC_Plus", "CAPS", "123", "UTILITY")
+BASE_ORDER = ("KANA", "ABC", "ABC_Plus", "CAPS", "123", "UTILITY")
+ORDER = BASE_ORDER + ("MFM",)
 QUOTE_KEYS = {"KANA": ((0, 3), (3, 2)), "ABC": ((11, 4),),
               "ABC_Plus": ((11, 4),), "CAPS": ((11, 4),),
               "123": ((11, 3),), "UTILITY": ((1, 3),)}
@@ -61,7 +62,7 @@ def fix_quote_holds(key):
 
 
 def build():
-    tabs = {name: load_original(name) for name in ORDER}
+    tabs = {name: load_original(name) for name in BASE_ORDER}
     key_at(tabs["KANA"], 1, 2)["design"]["label"]["sub"] = "←ゆ ↑や →？ ↓っ"
     key_at(tabs["KANA"], 2, 3)["design"]["label"]["sub"] = "←「 ↑ー →」 ↓ぬ"
 
@@ -72,6 +73,11 @@ def build():
     for wrapper in tabs["123"]["interface"]["keys"]:
         if wrapper["key_type"] == "custom":
             fix_quote_holds(wrapper["key"])
+
+    # UtilityのMDキーをMFM専用タブへの入口にする。既存の4方向フリックと長押しは維持する。
+    mfm_entry = key_at(tabs["UTILITY"], 3, 1)
+    mfm_entry["design"]["label"] = {"type": "main_and_sub", "main": "MFM", "sub": "←# ↑\` →> ↓*"}
+    mfm_entry["press_actions"] = [{"type": "move_tab", "tab_type": "custom", "identifier": "qed_mfm_v30"}]
 
     brackets = key_at(tabs["UTILITY"], 0, 1)
     brackets["design"]["label"]["sub"] = "「 〈"
@@ -90,6 +96,8 @@ def build():
             main = label.get("main", label.get("text"))
             sub = " ".join(filter(None, [label.get("sub"), '↑"']))
             key["design"]["label"] = {"type": "main_and_sub", "main": main, "sub": sub}
+    # MFMは3.0で新設されたためarchive/2.0には存在しない。単体JSONを正本としてbundleへ含める。
+    tabs["MFM"] = json.loads((ROOT / "QED_MFM_3.0.json").read_text(encoding="utf-8"))
     return [tabs[name] for name in ORDER]
 
 
@@ -98,7 +106,7 @@ def main():
     for name, data in zip(ORDER, tabs):
         (ROOT / f"QED_{name}_3.0.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (ROOT / "00_QED_Input_KANA_DEFAULT_3.0.json").write_text(json.dumps(tabs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Built QED Input 3.0: original layouts with small fixes only.")
+    print("Built QED Input 3.0: original layouts plus MFM keyboard.")
 
 
 if __name__ == "__main__":
