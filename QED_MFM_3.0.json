@@ -34,7 +34,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[x2 ]"
             },
             {
@@ -54,7 +54,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[x3 ]"
                   },
                   {
@@ -80,7 +80,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[x4 ]"
                   },
                   {
@@ -106,7 +106,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[scale.x=4,y=2 ]"
                   },
                   {
@@ -132,7 +132,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "<small></small>"
                   },
                   {
@@ -175,7 +175,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[jelly ]"
             },
             {
@@ -195,7 +195,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[tada ]"
                   },
                   {
@@ -207,7 +207,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[tada.speed=5s ]"
                     },
                     {
@@ -230,7 +230,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[jump ]"
                   },
                   {
@@ -242,7 +242,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[jump.speed=5s ]"
                     },
                     {
@@ -265,7 +265,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[bounce ]"
                   },
                   {
@@ -277,7 +277,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[bounce.speed=5s ]"
                     },
                     {
@@ -300,7 +300,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[rainbow ]"
                   },
                   {
@@ -312,7 +312,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[rainbow.speed=5s ]"
                     },
                     {
@@ -329,7 +329,7 @@
             "duration": "light",
             "start": [
               {
-                "type": "input",
+                "type": "direct_input",
                 "text": "$[jelly.speed=5s ]"
               },
               {
@@ -361,7 +361,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[spin ]"
             },
             {
@@ -381,7 +381,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[spin.left ]"
                   },
                   {
@@ -407,7 +407,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[shake ]"
                   },
                   {
@@ -419,7 +419,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[shake.speed=5s ]"
                     },
                     {
@@ -442,7 +442,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[twitch ]"
                   },
                   {
@@ -454,7 +454,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "$[twitch.speed=5s ]"
                     },
                     {
@@ -477,7 +477,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[sparkle ]"
                   },
                   {
@@ -497,7 +497,7 @@
             "duration": "light",
             "start": [
               {
-                "type": "input",
+                "type": "direct_input",
                 "text": "$[spin.speed=5s ]"
               },
               {
@@ -529,7 +529,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[rotate.deg=30 ]"
             },
             {
@@ -549,7 +549,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[flip ]"
                   },
                   {
@@ -575,7 +575,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[flip.v ]"
                   },
                   {
@@ -601,7 +601,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[flip.h,v ]"
                   },
                   {
@@ -627,7 +627,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[position.x=0.8,y=0.5 ]"
                   },
                   {
@@ -670,7 +670,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "****"
             },
             {
@@ -690,7 +690,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "<small></small>"
                   },
                   {
@@ -716,7 +716,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "<center></center>"
                   },
                   {
@@ -742,7 +742,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[blur ]"
                   },
                   {
@@ -768,7 +768,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "<plain></plain>"
                   },
                   {
@@ -811,7 +811,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[fg.color=f00 ]"
             },
             {
@@ -831,7 +831,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[fg.color=00f ]"
                   },
                   {
@@ -857,7 +857,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[bg.color=ff0 ]"
                   },
                   {
@@ -883,7 +883,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[fg.color=0a0 ]"
                   },
                   {
@@ -909,7 +909,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[bg.color=000 ]"
                   },
                   {
@@ -952,7 +952,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[font.serif ]"
             },
             {
@@ -972,7 +972,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[font.monospace ]"
                   },
                   {
@@ -998,7 +998,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[font.cursive ]"
                   },
                   {
@@ -1024,7 +1024,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[font.fantasy ]"
                   },
                   {
@@ -1050,7 +1050,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[flip.h,v ]"
                   },
                   {
@@ -1093,7 +1093,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[border.style=solid,width=4 ]"
             },
             {
@@ -1113,7 +1113,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[border.style=dotted,width=2 ]"
                   },
                   {
@@ -1139,7 +1139,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[border.style=dashed,width=2 ]"
                   },
                   {
@@ -1165,7 +1165,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[border.style=double,width=4 ]"
                   },
                   {
@@ -1191,7 +1191,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[border.radius=6,width=2 ]"
                   },
                   {
@@ -1234,7 +1234,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$[ruby ]"
             },
             {
@@ -1254,7 +1254,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "$[unixtime ]"
                   },
                   {
@@ -1280,7 +1280,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "::"
                   },
                   {
@@ -1306,7 +1306,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "@"
                   }
                 ],
@@ -1328,7 +1328,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "#"
                   }
                 ],
@@ -1367,7 +1367,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "[]()"
             },
             {
@@ -1387,7 +1387,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "?[]()"
                   },
                   {
@@ -1413,7 +1413,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "``"
                   },
                   {
@@ -1425,7 +1425,7 @@
                   "duration": "light",
                   "start": [
                     {
-                      "type": "input",
+                      "type": "direct_input",
                       "text": "```\n\n```"
                     },
                     {
@@ -1448,7 +1448,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "> "
                   }
                 ],
@@ -1470,7 +1470,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": " 検索"
                   },
                   {
@@ -1513,7 +1513,7 @@
           },
           "press_actions": [
             {
-              "type": "input",
+              "type": "direct_input",
               "text": "$["
             }
           ],
@@ -1529,7 +1529,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "]"
                   }
                 ],
@@ -1551,7 +1551,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "."
                   }
                 ],
@@ -1573,7 +1573,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "="
                   }
                 ],
@@ -1595,7 +1595,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": ","
                   }
                 ],
@@ -1682,7 +1682,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": "\n"
                   }
                 ],
@@ -1736,7 +1736,7 @@
                 },
                 "press_actions": [
                   {
-                    "type": "input",
+                    "type": "direct_input",
                     "text": " "
                   }
                 ],
