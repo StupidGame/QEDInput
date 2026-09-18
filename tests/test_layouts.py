@@ -9,7 +9,7 @@ import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ("KANA", "ABC", "ABC_Plus", "CAPS", "123", "UTILITY")
+NAMES = ("KANA", "ABC", "ABC_Plus", "CAPS", "123", "UTILITY", "MFM")\nBASE_NAMES = ("KANA", "ABC", "ABC_Plus", "CAPS", "123", "UTILITY")
 QUOTE_POSITIONS = {"KANA": {(0, 3), (3, 2)}, "ABC": {(11, 4)},
                    "ABC_Plus": {(11, 4)}, "CAPS": {(11, 4)},
                    "123": {(11, 3)}, "UTILITY": {(1, 3)}}
@@ -69,7 +69,7 @@ class LayoutTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.tabs = {name: read(ROOT / f"QED_{name}_3.0.json") for name in NAMES}
-        cls.originals = {name: normalize_version(read(ROOT / "archive/2.0" / f"QED_{name}_2.0.json")) for name in NAMES}
+        cls.originals = {name: normalize_version(read(ROOT / "archive/2.0" / f"QED_{name}_2.0.json")) for name in BASE_NAMES}
 
     def test_bundle_versions_and_reproducibility(self):
         sys.path.insert(0, str(ROOT / "tools"))
@@ -77,7 +77,7 @@ class LayoutTests(unittest.TestCase):
         bundle = read(ROOT / "00_QED_Input_KANA_DEFAULT_3.0.json")
         self.assertEqual(bundle, list(self.tabs.values()))
         self.assertEqual(build(), bundle)
-        self.assertEqual(len({t["identifier"] for t in bundle}), 6)
+        self.assertEqual(len({t["identifier"] for t in bundle}), 7)
         for name, tab in self.tabs.items():
             self.assertEqual(tab["metadata"]["display_name"], f"QED {name.replace('_Plus', '+')} 3.0")
             self.assertEqual(tab["metadata"]["custard_version"], "1.2")
@@ -96,7 +96,8 @@ class LayoutTests(unittest.TestCase):
                 if old["key_type"] == "system":
                     self.assertEqual(old["key"], new["key"])
                     continue
-                self.assertEqual(old["key"]["press_actions"], new["key"]["press_actions"], (name, position(old)))
+                if not (name == "UTILITY" and position(old) == (3, 1)):
+                    self.assertEqual(old["key"]["press_actions"], new["key"]["press_actions"], (name, position(old)))
                 old_flicks, new_flicks = variations(old["key"]), variations(new["key"])
                 self.assertTrue(old_flicks.keys() <= new_flicks.keys())
                 for direction, flick in old_flicks.items():
@@ -110,7 +111,7 @@ class LayoutTests(unittest.TestCase):
         # Guard against accidentally reintroducing a broad redesign.
         allowed = {"KANA": {(1, 2), (2, 3)}, "ABC": {(11, 3)},
                    "ABC_Plus": {(11, 3)}, "CAPS": {(11, 3)},
-                   "123": {(6, 2), (8, 2), (14, 2)}, "UTILITY": {(0, 1)}}
+                   "123": {(6, 2), (8, 2), (14, 2)}, "UTILITY": {(0, 1), (3, 1)}}
         for name, data in self.tabs.items():
             for old, new in zip(self.originals[name]["interface"]["keys"], data["interface"]["keys"]):
                 if position(old) not in allowed[name] | QUOTE_POSITIONS[name]:
@@ -154,6 +155,27 @@ class LayoutTests(unittest.TestCase):
                     seen.add(destination)
                     pending.append(destination)
             self.assertEqual(seen, ids)
+
+    def test_mfm_keyboard_is_integrated(self):
+        mfm = self.tabs["MFM"]
+        self.assertEqual(mfm["identifier"], "qed_mfm_v30")
+        self.assertEqual(mfm["metadata"]["display_name"], "QED MFM 3.0")
+        self.assertEqual(mfm["interface"]["key_layout"], {"type": "grid_fit", "row_count": 4, "column_count": 4})
+        self.assertEqual(len(mfm["interface"]["keys"]), 16)
+        utility_entry = at(self.tabs["UTILITY"], 3, 1)
+        self.assertEqual(utility_entry["press_actions"], [
+            {"type": "move_tab", "tab_type": "custom", "identifier": "qed_mfm_v30"}
+        ])
+        self.assertEqual(at(mfm, 0, 0)["press_actions"], [
+            {"type": "input", "text": "$[x2 ]"},
+            {"type": "move_cursor", "count": -1},
+        ])
+        self.assertEqual(at(mfm, 0, 3)["press_actions"], [
+            {"type": "move_tab", "tab_type": "custom", "identifier": "qed_kana_v30"}
+        ])
+        self.assertEqual(at(mfm, 3, 3)["press_actions"], [
+            {"type": "move_tab", "tab_type": "custom", "identifier": "qed_util_v30"}
+        ])
 
     def test_kana_automation_and_original_editing_are_restored(self):
         kana = self.tabs["KANA"]
