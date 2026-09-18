@@ -1,15 +1,15 @@
 {
   "input_style": "direct",
-  "language": "en_US",
   "metadata": {
     "custard_version": "1.2",
     "display_name": "QED 123 3.0"
   },
   "identifier": "qed_123_v30",
+  "language": "ja_JP",
   "interface": {
     "key_layout": {
       "type": "grid_fit",
-      "row_count": 5,
+      "row_count": 20,
       "column_count": 4
     },
     "key_style": "tenkey_style",
@@ -19,158 +19,14 @@
         "specifier": {
           "x": 0,
           "y": 0,
-          "width": 1,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "ABC",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "move_tab",
-              "tab_type": "custom",
-              "identifier": "qed_abc_v30"
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_util_v30"
-              }
-            ],
-            "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 1,
-          "y": 0,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "1",
-              "directions": {
-                "left": "@",
-                "top": "&",
-                "right": "#",
-                "bottom": "*"
-              }
+              "text": "1"
             },
             "color": "normal"
           },
@@ -307,21 +163,14 @@
         "specifier": {
           "x": 2,
           "y": 0,
-          "width": 1,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "2",
-              "directions": {
-                "left": "(",
-                "top": "[",
-                "right": ")",
-                "bottom": "]"
-              }
+              "text": "2"
             },
             "color": "normal"
           },
@@ -379,7 +228,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "［"
+                      "text": "【"
                     }
                   ],
                   "repeat": []
@@ -433,7 +282,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "］"
+                      "text": "】"
                     }
                   ],
                   "repeat": []
@@ -456,23 +305,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 3,
+          "x": 4,
           "y": 0,
-          "width": 1,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "3",
-              "directions": {
-                "left": "{",
-                "top": "<",
-                "right": "}",
-                "bottom": ">"
-              }
+              "text": "3"
             },
             "color": "normal"
           },
@@ -503,7 +345,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｛"
+                      "text": "『"
                     }
                   ],
                   "repeat": []
@@ -557,7 +399,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｝"
+                      "text": "』"
                     }
                   ],
                   "repeat": []
@@ -607,499 +449,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 4,
+          "x": 6,
           "y": 0,
-          "width": 1,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⌫",
-              "directions": {
-                "left": "区切",
-                "top": "前消",
-                "bottom": "閉じる"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "delete",
-              "count": 1
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "delete",
-                "count": 1
-              }
-            ],
-            "repeat": [
-              {
-                "type": "delete",
-                "count": 1
-              }
-            ]
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "区切"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "smart_delete",
-                    "direction": "backward",
-                    "targets": [
-                      "\n",
-                      " ",
-                      "\t",
-                      "　",
-                      ".",
-                      ",",
-                      "?",
-                      "!",
-                      "。",
-                      "、",
-                      "？",
-                      "！",
-                      "「",
-                      "」",
-                      "（",
-                      "）",
-                      "(",
-                      ")",
-                      "{",
-                      "}",
-                      "[",
-                      "]",
-                      "-",
-                      "_",
-                      "－",
-                      "＿",
-                      "/",
-                      "／",
-                      "\\",
-                      "＼",
-                      "|",
-                      "｜",
-                      "~",
-                      "〜",
-                      "・",
-                      "･",
-                      "¥",
-                      "￥",
-                      "$",
-                      "＄",
-                      "%",
-                      "％",
-                      "°",
-                      "℃",
-                      "+",
-                      "＋",
-                      "×",
-                      "÷",
-                      "√",
-                      "^",
-                      "＾",
-                      "*",
-                      "＊",
-                      "@",
-                      "＠",
-                      "&",
-                      "＆",
-                      "#",
-                      "＃",
-                      "※",
-                      "=",
-                      "＝",
-                      "<",
-                      "＜",
-                      ">",
-                      "＞",
-                      ":",
-                      "：",
-                      ";",
-                      "；",
-                      "'",
-                      "＇",
-                      "\"",
-                      "＂",
-                      "`",
-                      "｀",
-                      "…",
-                      "【",
-                      "】",
-                      "『",
-                      "』",
-                      "《",
-                      "》",
-                      "〈",
-                      "〉",
-                      "［",
-                      "］",
-                      "｛",
-                      "｝"
-                    ]
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "smart_delete",
-                      "direction": "backward",
-                      "targets": [
-                        "\n",
-                        " ",
-                        "\t",
-                        "　",
-                        ".",
-                        ",",
-                        "?",
-                        "!",
-                        "。",
-                        "、",
-                        "？",
-                        "！",
-                        "「",
-                        "」",
-                        "（",
-                        "）",
-                        "(",
-                        ")",
-                        "{",
-                        "}",
-                        "[",
-                        "]",
-                        "-",
-                        "_",
-                        "－",
-                        "＿",
-                        "/",
-                        "／",
-                        "\\",
-                        "＼",
-                        "|",
-                        "｜",
-                        "~",
-                        "〜",
-                        "・",
-                        "･",
-                        "¥",
-                        "￥",
-                        "$",
-                        "＄",
-                        "%",
-                        "％",
-                        "°",
-                        "℃",
-                        "+",
-                        "＋",
-                        "×",
-                        "÷",
-                        "√",
-                        "^",
-                        "＾",
-                        "*",
-                        "＊",
-                        "@",
-                        "＠",
-                        "&",
-                        "＆",
-                        "#",
-                        "＃",
-                        "※",
-                        "=",
-                        "＝",
-                        "<",
-                        "＜",
-                        ">",
-                        "＞",
-                        ":",
-                        "：",
-                        ";",
-                        "；",
-                        "'",
-                        "＇",
-                        "\"",
-                        "＂",
-                        "`",
-                        "｀",
-                        "…",
-                        "【",
-                        "】",
-                        "『",
-                        "』",
-                        "《",
-                        "》",
-                        "〈",
-                        "〉",
-                        "［",
-                        "］",
-                        "｛",
-                        "｝"
-                      ]
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "前消"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "delete",
-                    "count": -1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "delete",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "delete",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "閉じる"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  },
-                  {
-                    "type": "dismiss_keyboard"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 0,
-          "y": 1,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "←",
-              "directions": {
-                "left": "←",
-                "top": "行頭",
-                "right": "→",
-                "bottom": "行末"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "move_cursor",
-              "count": -1
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "move_cursor",
-                "count": -1
-              }
-            ],
-            "repeat": [
-              {
-                "type": "move_cursor",
-                "count": -1
-              }
-            ]
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "←"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": -1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "行頭"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "smart_move_cursor",
-                    "direction": "backward",
-                    "targets": [
-                      "\n"
-                    ]
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "→"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": 1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "行末"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "smart_move_cursor",
-                    "direction": "forward",
-                    "targets": [
-                      "\n"
-                    ]
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 1,
-          "y": 1,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "4",
-              "directions": {
-                "left": "+",
-                "top": "-",
-                "right": "×",
-                "bottom": "÷"
-              }
+              "text": "4"
             },
             "color": "normal"
           },
@@ -1234,23 +593,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 2,
-          "y": 1,
-          "width": 1,
+          "x": 8,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "5",
-              "directions": {
-                "left": "=",
-                "top": "≠",
-                "right": "≦",
-                "bottom": "≧"
-              }
+              "text": "5"
             },
             "color": "normal"
           },
@@ -1385,23 +737,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 3,
-          "y": 1,
-          "width": 1,
+          "x": 10,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "6",
-              "directions": {
-                "left": "\\",
-                "top": "|",
-                "right": "/",
-                "bottom": "_"
-              }
+              "text": "6"
             },
             "color": "normal"
           },
@@ -1536,340 +881,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 4,
-          "y": 1,
-          "width": 1,
+          "x": 12,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "空白",
-              "directions": {
-                "left": "←",
-                "top": "貼付",
-                "right": "→",
-                "bottom": "全角"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "input",
-              "text": " "
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "toggle_cursor_bar"
-              }
-            ],
-            "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "←"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": -1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "貼付"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "paste"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "clipboard_history_tab"
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "→"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": 1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "全角"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "　"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 0,
-          "y": 2,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "→",
-              "directions": {
-                "left": "←",
-                "top": "行頭",
-                "right": "→",
-                "bottom": "行末"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "move_cursor",
-              "count": 1
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "move_cursor",
-                "count": 1
-              }
-            ],
-            "repeat": [
-              {
-                "type": "move_cursor",
-                "count": 1
-              }
-            ]
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "←"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": -1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "行頭"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "smart_move_cursor",
-                    "direction": "backward",
-                    "targets": [
-                      "\n"
-                    ]
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "→"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_cursor",
-                    "count": 1
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "行末"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "smart_move_cursor",
-                    "direction": "forward",
-                    "targets": [
-                      "\n"
-                    ]
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 1,
-          "y": 2,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "7",
-              "directions": {
-                "left": ":",
-                "top": ";",
-                "right": "'",
-                "bottom": "\""
-              }
+              "text": "7"
             },
             "color": "normal"
           },
@@ -2004,23 +1025,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 2,
-          "y": 2,
-          "width": 1,
+          "x": 14,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "8",
-              "directions": {
-                "left": "¥",
-                "top": "$",
-                "right": "%",
-                "bottom": "°"
-              }
+              "text": "8"
             },
             "color": "normal"
           },
@@ -2155,23 +1169,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 3,
-          "y": 2,
-          "width": 1,
+          "x": 16,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "9",
-              "directions": {
-                "left": "^",
-                "top": "~",
-                "right": "`",
-                "bottom": "…"
-              }
+              "text": "9"
             },
             "color": "normal"
           },
@@ -2306,426 +1313,16 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 4,
-          "y": 2,
-          "width": 1,
+          "x": 18,
+          "y": 0,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "+",
-              "directions": {
-                "left": "-",
-                "top": "*",
-                "right": "/",
-                "bottom": "="
-              }
-            },
-            "color": "normal"
-          },
-          "press_actions": [
-            {
-              "type": "input",
-              "text": "+"
-            }
-          ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "＋"
-              }
-            ],
-            "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "-"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "-"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "*"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "*"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "/"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "/"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "="
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "="
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 0,
-          "y": 3,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "操作",
-              "directions": {
-                "left": "かな",
-                "top": "幅",
-                "right": "ABC",
-                "bottom": "タブ"
-              }
-            },
-            "color": "special"
-          },
-          "press_actions": [
-            {
-              "type": "move_tab",
-              "tab_type": "custom",
-              "identifier": "qed_util_v30"
-            }
-          ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "enable_resizing_mode"
-              }
-            ],
-            "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "幅"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "enable_resizing_mode"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "タブ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "toggle_tab_bar"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 1,
-          "y": 3,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": ".",
-              "directions": {
-                "left": ",",
-                "top": ":",
-                "right": ";",
-                "bottom": "/"
-              }
-            },
-            "color": "normal"
-          },
-          "press_actions": [
-            {
-              "type": "input",
-              "text": "."
-            }
-          ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "．"
-              }
-            ],
-            "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": ","
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": ","
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": ":"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": ":"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "light",
-                  "start": [
-                    {
-                      "type": "input",
-                      "text": "："
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": ";"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": ";"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "light",
-                  "start": [
-                    {
-                      "type": "input",
-                      "text": "；"
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "/"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "/"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
-        "specifier_type": "grid_fit",
-        "specifier": {
-          "x": 2,
-          "y": 3,
-          "width": 1,
-          "height": 1
-        },
-        "key_type": "custom",
-        "key": {
-          "design": {
-            "label": {
-              "type": "main_and_directions",
-              "main": "0",
-              "directions": {
-                "left": "00",
-                "top": "+",
-                "right": "-",
-                "bottom": "%"
-              }
+              "text": "0"
             },
             "color": "normal"
           },
@@ -2860,23 +1457,226 @@
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 3,
-          "y": 3,
-          "width": 1,
+          "x": 0,
+          "y": 1,
+          "width": 2,
           "height": 1
         },
         "key_type": "custom",
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "-",
-              "directions": {
-                "left": "_",
-                "top": "?",
-                "right": "!",
-                "bottom": "="
+              "text": "@"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "@"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＠"
               }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 2,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "#"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "#"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＃"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 4,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "%"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "%"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "％"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 6,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "&"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "&"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＆"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 8,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "*"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "*"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＊"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 10,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "+"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "+"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＋"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 12,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "-"
             },
             "color": "normal"
           },
@@ -2886,6 +1686,7 @@
               "text": "-"
             }
           ],
+          "variations": [],
           "longpress_actions": {
             "duration": "light",
             "start": [
@@ -2895,11 +1696,441 @@
               }
             ],
             "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 14,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "="
+            },
+            "color": "normal"
           },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "="
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＝"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 16,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "["
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "["
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "【"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 18,
+          "y": 1,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "]"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "]"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "】"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 0,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "/"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "/"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "／"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 2,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "("
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "("
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "（"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 4,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": ")"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": ")"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "）"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 6,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": ":"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": ":"
+            }
+          ],
           "variations": [
             {
               "type": "flick_variation",
-              "direction": "left",
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "\""
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "\""
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＂"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "："
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 8,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": ";"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": ";"
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "'"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "'"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＇"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "；"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 10,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "!"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "!"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "！"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 12,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "?"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "?"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "？"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 14,
+          "y": 2,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "\""
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "\""
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
               "key": {
                 "design": {
                   "label": {
@@ -2910,6 +2141,221 @@
                   {
                     "type": "input",
                     "text": "_"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＿"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "'"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "'"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＇"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "＂"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 16,
+          "y": 2,
+          "width": 4,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "system_image": "delete.left"
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "delete",
+              "count": 1
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "単語削除"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "smart_delete"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "前方削除"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "delete",
+                    "count": -1
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "delete",
+                "count": 1
+              }
+            ],
+            "repeat": [
+              {
+                "type": "delete",
+                "count": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 0,
+          "y": 3,
+          "width": 3,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "type": "main_and_sub",
+              "main": "あA",
+              "sub": "JP"
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "move_tab",
+              "tab_type": "custom",
+              "identifier": "qed_kana_v30"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_abc_v30"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 3,
+          "y": 3,
+          "width": 3,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "type": "main_and_sub",
+              "main": ".,!?",
+              "sub": ",:"
+            },
+            "color": "normal"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": "."
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": ","
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": ","
                   }
                 ],
                 "longpress_actions": {
@@ -2979,13 +2425,98 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "="
+                    "text": ":"
                   }
                 },
                 "press_actions": [
                   {
                     "type": "input",
-                    "text": "="
+                    "text": ":"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": ";"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "…"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 6,
+          "y": 3,
+          "width": 5,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "system_image": "space"
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "input",
+              "text": " "
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "chevron.left"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "move_cursor",
+                    "count": -1
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "chevron.right"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "move_cursor",
+                    "count": 1
                   }
                 ],
                 "longpress_actions": {
@@ -2995,15 +2526,128 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
         "specifier_type": "grid_fit",
         "specifier": {
-          "x": 4,
+          "x": 11,
           "y": 3,
-          "width": 1,
+          "width": 4,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "type": "main_and_sub",
+              "main": "ABC",
+              "sub": "↑\""
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "move_tab",
+              "tab_type": "custom",
+              "identifier": "qed_abc_v30"
+            }
+          ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "\""
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "\""
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＂"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_caps_v30"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 15,
+          "y": 3,
+          "width": 2,
+          "height": 1
+        },
+        "key_type": "custom",
+        "key": {
+          "design": {
+            "label": {
+              "text": "UTIL"
+            },
+            "color": "special"
+          },
+          "press_actions": [
+            {
+              "type": "move_tab",
+              "tab_type": "custom",
+              "identifier": "qed_util_v30"
+            }
+          ],
+          "variations": [],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_abc_v30"
+              }
+            ],
+            "repeat": []
+          }
+        }
+      },
+      {
+        "specifier_type": "grid_fit",
+        "specifier": {
+          "x": 17,
+          "y": 3,
+          "width": 3,
           "height": 1
         },
         "key_type": "system",

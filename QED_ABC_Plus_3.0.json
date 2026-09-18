@@ -228,7 +228,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "［"
+                      "text": "【"
                     }
                   ],
                   "repeat": []
@@ -282,7 +282,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "］"
+                      "text": "】"
                     }
                   ],
                   "repeat": []
@@ -345,7 +345,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｛"
+                      "text": "『"
                     }
                   ],
                   "repeat": []
@@ -399,7 +399,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｝"
+                      "text": "』"
                     }
                   ],
                   "repeat": []
@@ -1466,12 +1466,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "Q",
-              "directions": {
-                "left": "Ｑ",
-                "bottom": "QU"
-              }
+              "text": "Q"
             },
             "color": "normal"
           },
@@ -1486,21 +1481,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｑ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1566,7 +1546,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -1581,12 +1566,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "W",
-              "directions": {
-                "left": "Ｗ",
-                "bottom": "www."
-              }
+              "text": "W"
             },
             "color": "normal"
           },
@@ -1601,21 +1581,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｗ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1650,13 +1615,13 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "www."
+                    "text": "WWW."
                   }
                 },
                 "press_actions": [
                   {
                     "type": "input",
-                    "text": "www."
+                    "text": "WWW."
                   },
                   {
                     "type": "move_tab",
@@ -1669,7 +1634,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "ｗｗｗ．"
+                      "text": "ＷＷＷ．"
                     },
                     {
                       "type": "move_tab",
@@ -1681,7 +1646,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -1696,11 +1666,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "E",
-              "directions": {
-                "left": "Ｅ"
-              }
+              "text": "E"
             },
             "color": "normal"
           },
@@ -1715,21 +1681,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｅ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1758,7 +1709,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -1773,11 +1729,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "R",
-              "directions": {
-                "left": "Ｒ"
-              }
+              "text": "R"
             },
             "color": "normal"
           },
@@ -1792,21 +1744,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｒ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1835,7 +1772,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -1850,11 +1792,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "T",
-              "directions": {
-                "left": "Ｔ"
-              }
+              "text": "T"
             },
             "color": "normal"
           },
@@ -1869,21 +1807,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｔ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1912,7 +1835,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -1927,11 +1855,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "Y",
-              "directions": {
-                "left": "Ｙ"
-              }
+              "text": "Y"
             },
             "color": "normal"
           },
@@ -1946,21 +1870,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｙ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1989,7 +1898,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2004,11 +1918,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "U",
-              "directions": {
-                "left": "Ｕ"
-              }
+              "text": "U"
             },
             "color": "normal"
           },
@@ -2023,21 +1933,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｕ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2066,7 +1961,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2081,11 +1981,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "I",
-              "directions": {
-                "left": "Ｉ"
-              }
+              "text": "I"
             },
             "color": "normal"
           },
@@ -2100,21 +1996,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｉ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2143,7 +2024,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2158,11 +2044,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "O",
-              "directions": {
-                "left": "Ｏ"
-              }
+              "text": "O"
             },
             "color": "normal"
           },
@@ -2177,21 +2059,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｏ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2220,7 +2087,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2235,11 +2107,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "P",
-              "directions": {
-                "left": "Ｐ"
-              }
+              "text": "P"
             },
             "color": "normal"
           },
@@ -2254,21 +2122,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｐ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2297,7 +2150,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2312,11 +2170,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "A",
-              "directions": {
-                "left": "Ａ"
-              }
+              "text": "A"
             },
             "color": "normal"
           },
@@ -2331,21 +2185,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ａ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2374,7 +2213,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2389,11 +2233,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "S",
-              "directions": {
-                "left": "Ｓ"
-              }
+              "text": "S"
             },
             "color": "normal"
           },
@@ -2408,21 +2248,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｓ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2451,7 +2276,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2466,11 +2296,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "D",
-              "directions": {
-                "left": "Ｄ"
-              }
+              "text": "D"
             },
             "color": "normal"
           },
@@ -2485,21 +2311,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｄ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2528,7 +2339,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2543,11 +2359,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "F",
-              "directions": {
-                "left": "Ｆ"
-              }
+              "text": "F"
             },
             "color": "normal"
           },
@@ -2562,21 +2374,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｆ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2605,7 +2402,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2620,11 +2422,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "G",
-              "directions": {
-                "left": "Ｇ"
-              }
+              "text": "G"
             },
             "color": "normal"
           },
@@ -2639,21 +2437,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｇ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2682,7 +2465,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2697,11 +2485,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "H",
-              "directions": {
-                "left": "Ｈ"
-              }
+              "text": "H"
             },
             "color": "normal"
           },
@@ -2716,21 +2500,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｈ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2759,7 +2528,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2774,11 +2548,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "J",
-              "directions": {
-                "left": "Ｊ"
-              }
+              "text": "J"
             },
             "color": "normal"
           },
@@ -2793,21 +2563,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｊ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2836,7 +2591,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2851,11 +2611,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "K",
-              "directions": {
-                "left": "Ｋ"
-              }
+              "text": "K"
             },
             "color": "normal"
           },
@@ -2870,21 +2626,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｋ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2913,7 +2654,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -2928,11 +2674,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "L",
-              "directions": {
-                "left": "Ｌ"
-              }
+              "text": "L"
             },
             "color": "normal"
           },
@@ -2947,21 +2689,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｌ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2990,7 +2717,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3005,16 +2737,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⇧",
-              "directions": {
-                "left": "`",
-                "top": "'",
-                "right": "\"",
-                "bottom": "_"
-              }
+              "system_image": "shift.fill"
             },
-            "color": "special"
+            "color": "selected"
           },
           "press_actions": [
             {
@@ -3023,8 +2748,9 @@
               "identifier": "qed_abc_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
@@ -3033,97 +2759,7 @@
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "`"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "`"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "'"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "'"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "\""
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "\""
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "_"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "_"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -3138,11 +2774,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "Z",
-              "directions": {
-                "left": "Ｚ"
-              }
+              "text": "Z"
             },
             "color": "normal"
           },
@@ -3157,21 +2789,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｚ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3200,7 +2817,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3215,11 +2837,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "X",
-              "directions": {
-                "left": "Ｘ"
-              }
+              "text": "X"
             },
             "color": "normal"
           },
@@ -3234,21 +2852,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｘ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3277,7 +2880,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3292,11 +2900,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "C",
-              "directions": {
-                "left": "Ｃ"
-              }
+              "text": "C"
             },
             "color": "normal"
           },
@@ -3311,21 +2915,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｃ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3354,7 +2943,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3369,11 +2963,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "V",
-              "directions": {
-                "left": "Ｖ"
-              }
+              "text": "V"
             },
             "color": "normal"
           },
@@ -3388,21 +2978,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｖ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3431,7 +3006,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3446,12 +3026,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "B",
-              "directions": {
-                "left": "Ｂ",
-                "bottom": "#"
-              }
+              "text": "B"
             },
             "color": "normal"
           },
@@ -3466,25 +3041,37 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｂ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
               "direction": "left",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "#"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "#"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＃"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "right",
               "key": {
                 "design": {
                   "label": {
@@ -3508,45 +3095,13 @@
                   "repeat": []
                 }
               }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "#"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "#"
-                  },
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "light",
-                  "start": [
-                    {
-                      "type": "input",
-                      "text": "＃"
-                    },
-                    {
-                      "type": "move_tab",
-                      "tab_type": "custom",
-                      "identifier": "qed_abc_v30"
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3561,11 +3116,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "N",
-              "directions": {
-                "left": "Ｎ"
-              }
+              "text": "N"
             },
             "color": "normal"
           },
@@ -3580,21 +3131,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｎ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3623,7 +3159,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3638,12 +3179,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "M",
-              "directions": {
-                "left": "Ｍ",
-                "bottom": ".COM"
-              }
+              "text": "M"
             },
             "color": "normal"
           },
@@ -3658,21 +3194,6 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｍ"
-              },
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3738,7 +3259,12 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "normal",
+            "start": [],
+            "repeat": []
+          }
         }
       },
       {
@@ -3753,13 +3279,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⌫",
-              "directions": {
-                "left": "区切",
-                "top": "前消",
-                "bottom": "閉じる"
-              }
+              "system_image": "delete.left"
             },
             "color": "special"
           },
@@ -3770,7 +3290,7 @@
             }
           ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "delete",
@@ -3780,7 +3300,7 @@
             "repeat": [
               {
                 "type": "delete",
-                "count": 1
+                "count": 2
               }
             ]
           },
@@ -3791,17 +3311,20 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "区切"
+                    "text": "word"
                   }
                 },
                 "press_actions": [
+                  {
+                    "type": "delete",
+                    "count": 1
+                  },
                   {
                     "type": "smart_delete",
                     "direction": "backward",
                     "targets": [
                       "\n",
                       " ",
-                      "\t",
                       "　",
                       ".",
                       ",",
@@ -3881,116 +3404,22 @@
                       "『",
                       "』",
                       "《",
-                      "》",
-                      "〈",
-                      "〉",
-                      "［",
-                      "］",
-                      "｛",
-                      "｝"
+                      "》"
                     ]
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
-                      "type": "smart_delete",
-                      "direction": "backward",
-                      "targets": [
-                        "\n",
-                        " ",
-                        "\t",
-                        "　",
-                        ".",
-                        ",",
-                        "?",
-                        "!",
-                        "。",
-                        "、",
-                        "？",
-                        "！",
-                        "「",
-                        "」",
-                        "（",
-                        "）",
-                        "(",
-                        ")",
-                        "{",
-                        "}",
-                        "[",
-                        "]",
-                        "-",
-                        "_",
-                        "－",
-                        "＿",
-                        "/",
-                        "／",
-                        "\\",
-                        "＼",
-                        "|",
-                        "｜",
-                        "~",
-                        "〜",
-                        "・",
-                        "･",
-                        "¥",
-                        "￥",
-                        "$",
-                        "＄",
-                        "%",
-                        "％",
-                        "°",
-                        "℃",
-                        "+",
-                        "＋",
-                        "×",
-                        "÷",
-                        "√",
-                        "^",
-                        "＾",
-                        "*",
-                        "＊",
-                        "@",
-                        "＠",
-                        "&",
-                        "＆",
-                        "#",
-                        "＃",
-                        "※",
-                        "=",
-                        "＝",
-                        "<",
-                        "＜",
-                        ">",
-                        "＞",
-                        ":",
-                        "：",
-                        ";",
-                        "；",
-                        "'",
-                        "＇",
-                        "\"",
-                        "＂",
-                        "`",
-                        "｀",
-                        "…",
-                        "【",
-                        "】",
-                        "『",
-                        "』",
-                        "《",
-                        "》",
-                        "〈",
-                        "〉",
-                        "［",
-                        "］",
-                        "｛",
-                        "｝"
-                      ]
+                      "type": "smart_delete_default"
                     }
                   ],
-                  "repeat": []
+                  "repeat": [
+                    {
+                      "type": "smart_delete_default"
+                    }
+                  ]
                 }
               }
             },
@@ -4000,7 +3429,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "前消"
+                    "system_image": "delete.right"
                   }
                 },
                 "press_actions": [
@@ -4010,7 +3439,7 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
                       "type": "delete",
@@ -4032,7 +3461,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "閉じる"
+                    "system_image": "keyboard.chevron.compact.down.fill"
                   }
                 },
                 "press_actions": [
@@ -4067,14 +3496,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
+              "type": "main_and_sub",
               "main": "あA",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "sub": "JP"
             },
             "color": "special"
           },
@@ -4085,111 +3509,18 @@
               "identifier": "qed_kana_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
                 "tab_type": "custom",
-                "identifier": "qed_util_v30"
+                "identifier": "qed_abc_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4204,14 +3535,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": ".",
-              "directions": {
-                "left": ",",
-                "top": "?",
-                "right": "!",
-                "bottom": ":"
-              }
+              "type": "main_and_sub",
+              "main": ".,!?",
+              "sub": ",:"
             },
             "color": "normal"
           },
@@ -4221,16 +3547,6 @@
               "text": "."
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "…"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4335,7 +3651,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "…"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4350,14 +3676,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "空白",
-              "directions": {
-                "left": "←",
-                "top": "貼付",
-                "right": "→",
-                "bottom": "全角"
-              }
+              "system_image": "space"
             },
             "color": "special"
           },
@@ -4367,15 +3686,6 @@
               "text": " "
             }
           ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "toggle_cursor_bar"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4383,7 +3693,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "←"
+                    "system_image": "chevron.left"
                   }
                 },
                 "press_actions": [
@@ -4394,44 +3704,7 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "貼付"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "paste"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "clipboard_history_tab"
-                    }
-                  ],
+                  "start": [],
                   "repeat": []
                 }
               }
@@ -4442,7 +3715,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "→"
+                    "system_image": "chevron.right"
                   }
                 },
                 "press_actions": [
@@ -4453,18 +3726,29 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "doc.on.clipboard"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "paste"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
                 }
               }
             },
@@ -4474,13 +3758,14 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "全角"
+                    "system_image": "list.bullet.clipboard"
                   }
                 },
                 "press_actions": [
                   {
-                    "type": "input",
-                    "text": "　"
+                    "type": "move_tab",
+                    "tab_type": "system",
+                    "identifier": "clipboard_history_tab"
                   }
                 ],
                 "longpress_actions": {
@@ -4490,7 +3775,16 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4505,14 +3799,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "123",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "type": "main_and_sub",
+              "main": "記号",
+              "sub": "123 ↑\""
             },
             "color": "special"
           },
@@ -4523,8 +3812,37 @@
               "identifier": "qed_123_v30"
             }
           ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "\""
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "\""
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＂"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
@@ -4533,101 +3851,7 @@
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4642,14 +3866,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "操作",
-              "directions": {
-                "left": "かな",
-                "top": "幅",
-                "right": "ABC",
-                "bottom": "タブ"
-              }
+              "text": "UTIL"
             },
             "color": "special"
           },
@@ -4660,105 +3877,18 @@
               "identifier": "qed_util_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
-                "type": "enable_resizing_mode"
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_123_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "幅"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "enable_resizing_mode"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "タブ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "toggle_tab_bar"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {

@@ -228,7 +228,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "［"
+                      "text": "【"
                     }
                   ],
                   "repeat": []
@@ -282,7 +282,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "］"
+                      "text": "】"
                     }
                   ],
                   "repeat": []
@@ -345,7 +345,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｛"
+                      "text": "『"
                     }
                   ],
                   "repeat": []
@@ -399,7 +399,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｝"
+                      "text": "』"
                     }
                   ],
                   "repeat": []
@@ -1482,16 +1482,6 @@
               "text": "Q"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｑ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1509,8 +1499,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｑ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1531,8 +1526,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｑ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1564,7 +1564,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｑ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1584,7 +1594,7 @@
               "directions": {
                 "left": "Ｗ",
                 "right": "ｗ",
-                "bottom": "www."
+                "bottom": "ᴡᴡᴡ."
               }
             },
             "color": "normal"
@@ -1595,16 +1605,6 @@
               "text": "W"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｗ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1622,8 +1622,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｗ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1644,8 +1649,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｗ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1656,7 +1666,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "www."
+                    "text": "ᴡᴡᴡ."
                   }
                 },
                 "press_actions": [
@@ -1677,7 +1687,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｗ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1707,16 +1727,6 @@
               "text": "E"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｅ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1734,8 +1744,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｅ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1756,13 +1771,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｅ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｅ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1792,16 +1822,6 @@
               "text": "R"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｒ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1819,8 +1839,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｒ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1841,13 +1866,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｒ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｒ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1877,16 +1917,6 @@
               "text": "T"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｔ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1904,8 +1934,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｔ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1926,13 +1961,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｔ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｔ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1962,16 +2012,6 @@
               "text": "Y"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｙ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1989,8 +2029,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｙ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2011,13 +2056,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｙ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｙ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2047,16 +2107,6 @@
               "text": "U"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｕ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2074,8 +2124,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｕ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2096,13 +2151,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｕ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｕ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2132,16 +2202,6 @@
               "text": "I"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｉ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2159,8 +2219,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｉ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2181,13 +2246,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｉ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｉ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2217,16 +2297,6 @@
               "text": "O"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｏ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2244,8 +2314,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｏ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2266,13 +2341,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｏ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｏ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2302,16 +2392,6 @@
               "text": "P"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｐ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2329,8 +2409,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｐ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2351,13 +2436,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｐ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｐ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2387,16 +2487,6 @@
               "text": "A"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ａ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2414,8 +2504,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ａ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2436,13 +2531,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ａ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ａ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2472,16 +2582,6 @@
               "text": "S"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｓ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2499,8 +2599,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｓ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2521,13 +2626,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｓ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｓ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2557,16 +2677,6 @@
               "text": "D"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｄ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2584,8 +2694,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｄ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2606,13 +2721,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｄ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｄ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2642,16 +2772,6 @@
               "text": "F"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｆ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2669,8 +2789,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｆ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2691,13 +2816,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｆ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｆ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2727,16 +2867,6 @@
               "text": "G"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｇ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2754,8 +2884,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｇ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2776,13 +2911,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｇ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｇ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2812,16 +2962,6 @@
               "text": "H"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｈ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2839,8 +2979,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｈ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2861,13 +3006,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｈ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｈ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2897,16 +3057,6 @@
               "text": "J"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｊ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2924,8 +3074,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｊ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -2946,13 +3101,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｊ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｊ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2982,16 +3152,6 @@
               "text": "K"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｋ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3009,8 +3169,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｋ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3031,13 +3196,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｋ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｋ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3067,16 +3247,6 @@
               "text": "L"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｌ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3094,8 +3264,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｌ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3116,13 +3291,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｌ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｌ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3137,16 +3327,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⇪",
-              "directions": {
-                "left": "`",
-                "top": "'",
-                "right": "\"",
-                "bottom": "_"
-              }
+              "system_image": "capslock.fill"
             },
-            "color": "special"
+            "color": "selected"
           },
           "press_actions": [
             {
@@ -3155,97 +3338,21 @@
               "identifier": "qed_abc_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_abc_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "`"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "`"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
             {
               "type": "flick_variation",
               "direction": "top",
               "key": {
                 "design": {
                   "label": {
-                    "text": "'"
+                    "system_image": "shift"
                   }
                 },
                 "press_actions": [
                   {
-                    "type": "input",
-                    "text": "'"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "\""
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "\""
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "_"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "_"
+                    "type": "move_tab",
+                    "tab_type": "custom",
+                    "identifier": "qed_abc_plus_v30"
                   }
                 ],
                 "longpress_actions": {
@@ -3255,7 +3362,18 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_abc_v30"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3285,16 +3403,6 @@
               "text": "Z"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｚ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3312,8 +3420,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｚ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3334,13 +3447,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｚ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｚ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3370,16 +3498,6 @@
               "text": "X"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｘ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3397,8 +3515,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｘ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3419,13 +3542,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｘ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｘ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3455,16 +3593,6 @@
               "text": "C"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｃ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3482,8 +3610,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｃ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3504,13 +3637,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｃ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｃ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3540,16 +3688,6 @@
               "text": "V"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｖ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3567,8 +3705,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｖ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3589,13 +3732,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｖ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｖ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3613,9 +3771,8 @@
               "type": "main_and_directions",
               "main": "B",
               "directions": {
-                "left": "Ｂ",
-                "right": "ｂ",
-                "bottom": "#"
+                "left": "#",
+                "right": "ｂ"
               }
             },
             "color": "normal"
@@ -3626,39 +3783,7 @@
               "text": "B"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｂ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "Ｂ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "Ｂ"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
             {
               "type": "flick_variation",
               "direction": "right",
@@ -3675,15 +3800,20 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｂ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             },
             {
               "type": "flick_variation",
-              "direction": "bottom",
+              "direction": "left",
               "key": {
                 "design": {
                   "label": {
@@ -3708,7 +3838,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｂ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3738,16 +3878,6 @@
               "text": "N"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｎ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3765,8 +3895,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｎ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3787,13 +3922,28 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｎ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｎ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3824,16 +3974,6 @@
               "text": "M"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Ｍ"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3851,8 +3991,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "Ｍ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3873,8 +4018,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "ｍ"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -3906,7 +4056,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Ｍ"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3921,13 +4081,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⌫",
-              "directions": {
-                "left": "区切",
-                "top": "前消",
-                "bottom": "閉じる"
-              }
+              "system_image": "delete.left"
             },
             "color": "special"
           },
@@ -3938,7 +4092,7 @@
             }
           ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "delete",
@@ -3948,7 +4102,7 @@
             "repeat": [
               {
                 "type": "delete",
-                "count": 1
+                "count": 2
               }
             ]
           },
@@ -3959,17 +4113,20 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "区切"
+                    "text": "word"
                   }
                 },
                 "press_actions": [
+                  {
+                    "type": "delete",
+                    "count": 1
+                  },
                   {
                     "type": "smart_delete",
                     "direction": "backward",
                     "targets": [
                       "\n",
                       " ",
-                      "\t",
                       "　",
                       ".",
                       ",",
@@ -4049,116 +4206,22 @@
                       "『",
                       "』",
                       "《",
-                      "》",
-                      "〈",
-                      "〉",
-                      "［",
-                      "］",
-                      "｛",
-                      "｝"
+                      "》"
                     ]
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
-                      "type": "smart_delete",
-                      "direction": "backward",
-                      "targets": [
-                        "\n",
-                        " ",
-                        "\t",
-                        "　",
-                        ".",
-                        ",",
-                        "?",
-                        "!",
-                        "。",
-                        "、",
-                        "？",
-                        "！",
-                        "「",
-                        "」",
-                        "（",
-                        "）",
-                        "(",
-                        ")",
-                        "{",
-                        "}",
-                        "[",
-                        "]",
-                        "-",
-                        "_",
-                        "－",
-                        "＿",
-                        "/",
-                        "／",
-                        "\\",
-                        "＼",
-                        "|",
-                        "｜",
-                        "~",
-                        "〜",
-                        "・",
-                        "･",
-                        "¥",
-                        "￥",
-                        "$",
-                        "＄",
-                        "%",
-                        "％",
-                        "°",
-                        "℃",
-                        "+",
-                        "＋",
-                        "×",
-                        "÷",
-                        "√",
-                        "^",
-                        "＾",
-                        "*",
-                        "＊",
-                        "@",
-                        "＠",
-                        "&",
-                        "＆",
-                        "#",
-                        "＃",
-                        "※",
-                        "=",
-                        "＝",
-                        "<",
-                        "＜",
-                        ">",
-                        "＞",
-                        ":",
-                        "：",
-                        ";",
-                        "；",
-                        "'",
-                        "＇",
-                        "\"",
-                        "＂",
-                        "`",
-                        "｀",
-                        "…",
-                        "【",
-                        "】",
-                        "『",
-                        "』",
-                        "《",
-                        "》",
-                        "〈",
-                        "〉",
-                        "［",
-                        "］",
-                        "｛",
-                        "｝"
-                      ]
+                      "type": "smart_delete_default"
                     }
                   ],
-                  "repeat": []
+                  "repeat": [
+                    {
+                      "type": "smart_delete_default"
+                    }
+                  ]
                 }
               }
             },
@@ -4168,7 +4231,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "前消"
+                    "system_image": "delete.right"
                   }
                 },
                 "press_actions": [
@@ -4178,7 +4241,7 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
                       "type": "delete",
@@ -4200,7 +4263,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "閉じる"
+                    "system_image": "keyboard.chevron.compact.down.fill"
                   }
                 },
                 "press_actions": [
@@ -4235,14 +4298,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
+              "type": "main_and_sub",
               "main": "あA",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "sub": "JP"
             },
             "color": "special"
           },
@@ -4253,111 +4311,18 @@
               "identifier": "qed_kana_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
                 "tab_type": "custom",
-                "identifier": "qed_util_v30"
+                "identifier": "qed_abc_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4372,14 +4337,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": ".",
-              "directions": {
-                "left": ",",
-                "top": "?",
-                "right": "!",
-                "bottom": ":"
-              }
+              "type": "main_and_sub",
+              "main": ".,!?",
+              "sub": ",:"
             },
             "color": "normal"
           },
@@ -4389,16 +4349,6 @@
               "text": "."
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "…"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4503,7 +4453,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "…"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4518,14 +4478,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "空白",
-              "directions": {
-                "left": "←",
-                "top": "貼付",
-                "right": "→",
-                "bottom": "全角"
-              }
+              "system_image": "space"
             },
             "color": "special"
           },
@@ -4535,15 +4488,6 @@
               "text": " "
             }
           ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "toggle_cursor_bar"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4551,7 +4495,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "←"
+                    "system_image": "chevron.left"
                   }
                 },
                 "press_actions": [
@@ -4562,44 +4506,7 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "貼付"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "paste"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "clipboard_history_tab"
-                    }
-                  ],
+                  "start": [],
                   "repeat": []
                 }
               }
@@ -4610,7 +4517,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "→"
+                    "system_image": "chevron.right"
                   }
                 },
                 "press_actions": [
@@ -4621,18 +4528,29 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "doc.on.clipboard"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "paste"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
                 }
               }
             },
@@ -4642,13 +4560,14 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "全角"
+                    "system_image": "list.bullet.clipboard"
                   }
                 },
                 "press_actions": [
                   {
-                    "type": "input",
-                    "text": "　"
+                    "type": "move_tab",
+                    "tab_type": "system",
+                    "identifier": "clipboard_history_tab"
                   }
                 ],
                 "longpress_actions": {
@@ -4658,7 +4577,16 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4673,14 +4601,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "123",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "type": "main_and_sub",
+              "main": "記号",
+              "sub": "123 ↑\""
             },
             "color": "special"
           },
@@ -4691,8 +4614,37 @@
               "identifier": "qed_123_v30"
             }
           ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "\""
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "\""
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＂"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
@@ -4701,101 +4653,7 @@
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4810,14 +4668,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "操作",
-              "directions": {
-                "left": "かな",
-                "top": "幅",
-                "right": "ABC",
-                "bottom": "タブ"
-              }
+              "text": "UTIL"
             },
             "color": "special"
           },
@@ -4828,105 +4679,18 @@
               "identifier": "qed_util_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
-                "type": "enable_resizing_mode"
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_123_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "幅"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "enable_resizing_mode"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "タブ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "toggle_tab_bar"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {

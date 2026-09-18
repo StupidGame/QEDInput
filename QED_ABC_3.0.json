@@ -228,7 +228,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "［"
+                      "text": "【"
                     }
                   ],
                   "repeat": []
@@ -282,7 +282,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "］"
+                      "text": "】"
                     }
                   ],
                   "repeat": []
@@ -345,7 +345,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｛"
+                      "text": "『"
                     }
                   ],
                   "repeat": []
@@ -399,7 +399,7 @@
                   "start": [
                     {
                       "type": "input",
-                      "text": "｝"
+                      "text": "』"
                     }
                   ],
                   "repeat": []
@@ -1466,13 +1466,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "q",
-              "directions": {
-                "left": "ｑ",
-                "top": "Ｑ",
-                "bottom": "qu"
-              }
+              "text": "q"
             },
             "color": "normal"
           },
@@ -1482,16 +1476,6 @@
               "text": "q"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Q"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1564,7 +1548,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Q"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1579,13 +1573,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "w",
-              "directions": {
-                "left": "ｗ",
-                "top": "Ｗ",
-                "bottom": "www."
-              }
+              "text": "w"
             },
             "color": "normal"
           },
@@ -1595,16 +1583,6 @@
               "text": "w"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "W"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1677,7 +1655,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "W"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1692,12 +1680,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "e",
-              "directions": {
-                "left": "ｅ",
-                "top": "Ｅ"
-              }
+              "text": "e"
             },
             "color": "normal"
           },
@@ -1707,16 +1690,6 @@
               "text": "e"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "E"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1762,7 +1735,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "E"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1777,12 +1760,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "r",
-              "directions": {
-                "left": "ｒ",
-                "top": "Ｒ"
-              }
+              "text": "r"
             },
             "color": "normal"
           },
@@ -1792,16 +1770,6 @@
               "text": "r"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "R"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1847,7 +1815,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "R"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1862,12 +1840,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "t",
-              "directions": {
-                "left": "ｔ",
-                "top": "Ｔ"
-              }
+              "text": "t"
             },
             "color": "normal"
           },
@@ -1877,16 +1850,6 @@
               "text": "t"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "T"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -1932,7 +1895,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "T"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -1947,12 +1920,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "y",
-              "directions": {
-                "left": "ｙ",
-                "top": "Ｙ"
-              }
+              "text": "y"
             },
             "color": "normal"
           },
@@ -1962,16 +1930,6 @@
               "text": "y"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Y"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2017,7 +1975,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Y"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2032,12 +2000,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "u",
-              "directions": {
-                "left": "ｕ",
-                "top": "Ｕ"
-              }
+              "text": "u"
             },
             "color": "normal"
           },
@@ -2047,16 +2010,6 @@
               "text": "u"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "U"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2102,7 +2055,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "U"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2117,12 +2080,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "i",
-              "directions": {
-                "left": "ｉ",
-                "top": "Ｉ"
-              }
+              "text": "i"
             },
             "color": "normal"
           },
@@ -2132,16 +2090,6 @@
               "text": "i"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "I"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2187,7 +2135,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "I"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2202,12 +2160,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "o",
-              "directions": {
-                "left": "ｏ",
-                "top": "Ｏ"
-              }
+              "text": "o"
             },
             "color": "normal"
           },
@@ -2217,16 +2170,6 @@
               "text": "o"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "O"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2272,7 +2215,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "O"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2287,12 +2240,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "p",
-              "directions": {
-                "left": "ｐ",
-                "top": "Ｐ"
-              }
+              "text": "p"
             },
             "color": "normal"
           },
@@ -2302,16 +2250,6 @@
               "text": "p"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "P"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2357,7 +2295,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "P"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2372,12 +2320,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "a",
-              "directions": {
-                "left": "ａ",
-                "top": "Ａ"
-              }
+              "text": "a"
             },
             "color": "normal"
           },
@@ -2387,16 +2330,6 @@
               "text": "a"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "A"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2442,7 +2375,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "A"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2457,12 +2400,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "s",
-              "directions": {
-                "left": "ｓ",
-                "top": "Ｓ"
-              }
+              "text": "s"
             },
             "color": "normal"
           },
@@ -2472,16 +2410,6 @@
               "text": "s"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "S"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2527,7 +2455,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "S"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2542,12 +2480,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "d",
-              "directions": {
-                "left": "ｄ",
-                "top": "Ｄ"
-              }
+              "text": "d"
             },
             "color": "normal"
           },
@@ -2557,16 +2490,6 @@
               "text": "d"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "D"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2612,7 +2535,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "D"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2627,12 +2560,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "f",
-              "directions": {
-                "left": "ｆ",
-                "top": "Ｆ"
-              }
+              "text": "f"
             },
             "color": "normal"
           },
@@ -2642,16 +2570,6 @@
               "text": "f"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "F"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2697,7 +2615,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "F"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2712,12 +2640,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "g",
-              "directions": {
-                "left": "ｇ",
-                "top": "Ｇ"
-              }
+              "text": "g"
             },
             "color": "normal"
           },
@@ -2727,16 +2650,6 @@
               "text": "g"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "G"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2782,7 +2695,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "G"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2797,12 +2720,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "h",
-              "directions": {
-                "left": "ｈ",
-                "top": "Ｈ"
-              }
+              "text": "h"
             },
             "color": "normal"
           },
@@ -2812,16 +2730,6 @@
               "text": "h"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "H"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2867,7 +2775,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "H"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2882,12 +2800,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "j",
-              "directions": {
-                "left": "ｊ",
-                "top": "Ｊ"
-              }
+              "text": "j"
             },
             "color": "normal"
           },
@@ -2897,16 +2810,6 @@
               "text": "j"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "J"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -2952,7 +2855,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "J"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -2967,12 +2880,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "k",
-              "directions": {
-                "left": "ｋ",
-                "top": "Ｋ"
-              }
+              "text": "k"
             },
             "color": "normal"
           },
@@ -2982,16 +2890,6 @@
               "text": "k"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "K"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3037,7 +2935,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "K"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3052,12 +2960,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "l",
-              "directions": {
-                "left": "ｌ",
-                "top": "Ｌ"
-              }
+              "text": "l"
             },
             "color": "normal"
           },
@@ -3067,16 +2970,6 @@
               "text": "l"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "L"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3122,7 +3015,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "L"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3137,14 +3040,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⇧",
-              "directions": {
-                "left": "`",
-                "top": "'",
-                "right": "\"",
-                "bottom": "_"
-              }
+              "system_image": "shift"
             },
             "color": "special"
           },
@@ -3155,17 +3051,6 @@
               "identifier": "qed_abc_plus_v30"
             }
           ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "move_tab",
-                "tab_type": "custom",
-                "identifier": "qed_caps_v30"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3255,7 +3140,18 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_caps_v30"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3270,12 +3166,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "z",
-              "directions": {
-                "left": "ｚ",
-                "top": "Ｚ"
-              }
+              "text": "z"
             },
             "color": "normal"
           },
@@ -3285,16 +3176,6 @@
               "text": "z"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "Z"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3340,7 +3221,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "Z"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3355,12 +3246,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "x",
-              "directions": {
-                "left": "ｘ",
-                "top": "Ｘ"
-              }
+              "text": "x"
             },
             "color": "normal"
           },
@@ -3370,16 +3256,6 @@
               "text": "x"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "X"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3425,7 +3301,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "X"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3440,12 +3326,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "c",
-              "directions": {
-                "left": "ｃ",
-                "top": "Ｃ"
-              }
+              "text": "c"
             },
             "color": "normal"
           },
@@ -3455,16 +3336,6 @@
               "text": "c"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "C"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3510,7 +3381,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "C"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3525,12 +3406,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "v",
-              "directions": {
-                "left": "ｖ",
-                "top": "Ｖ"
-              }
+              "text": "v"
             },
             "color": "normal"
           },
@@ -3540,16 +3416,6 @@
               "text": "v"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "V"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3595,7 +3461,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "V"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3610,13 +3486,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "b",
-              "directions": {
-                "left": "ｂ",
-                "top": "Ｂ",
-                "bottom": "#"
-              }
+              "text": "b"
             },
             "color": "normal"
           },
@@ -3626,39 +3496,7 @@
               "text": "b"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "B"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ｂ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "ｂ"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
             {
               "type": "flick_variation",
               "direction": "top",
@@ -3683,7 +3521,7 @@
             },
             {
               "type": "flick_variation",
-              "direction": "bottom",
+              "direction": "left",
               "key": {
                 "design": {
                   "label": {
@@ -3707,8 +3545,40 @@
                   "repeat": []
                 }
               }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "right",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "ｂ"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "ｂ"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
+                }
+              }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "B"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3723,12 +3593,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "n",
-              "directions": {
-                "left": "ｎ",
-                "top": "Ｎ"
-              }
+              "text": "n"
             },
             "color": "normal"
           },
@@ -3738,16 +3603,6 @@
               "text": "n"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "N"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3793,7 +3648,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "N"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3808,13 +3673,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "m",
-              "directions": {
-                "left": "ｍ",
-                "top": "Ｍ",
-                "bottom": ".com"
-              }
+              "text": "m"
             },
             "color": "normal"
           },
@@ -3824,16 +3683,6 @@
               "text": "m"
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "M"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -3906,7 +3755,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "M"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -3921,13 +3780,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "⌫",
-              "directions": {
-                "left": "区切",
-                "top": "前消",
-                "bottom": "閉じる"
-              }
+              "system_image": "delete.left"
             },
             "color": "special"
           },
@@ -3938,7 +3791,7 @@
             }
           ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "delete",
@@ -3948,7 +3801,7 @@
             "repeat": [
               {
                 "type": "delete",
-                "count": 1
+                "count": 2
               }
             ]
           },
@@ -3959,17 +3812,20 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "区切"
+                    "text": "word"
                   }
                 },
                 "press_actions": [
+                  {
+                    "type": "delete",
+                    "count": 1
+                  },
                   {
                     "type": "smart_delete",
                     "direction": "backward",
                     "targets": [
                       "\n",
                       " ",
-                      "\t",
                       "　",
                       ".",
                       ",",
@@ -4049,116 +3905,22 @@
                       "『",
                       "』",
                       "《",
-                      "》",
-                      "〈",
-                      "〉",
-                      "［",
-                      "］",
-                      "｛",
-                      "｝"
+                      "》"
                     ]
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
-                      "type": "smart_delete",
-                      "direction": "backward",
-                      "targets": [
-                        "\n",
-                        " ",
-                        "\t",
-                        "　",
-                        ".",
-                        ",",
-                        "?",
-                        "!",
-                        "。",
-                        "、",
-                        "？",
-                        "！",
-                        "「",
-                        "」",
-                        "（",
-                        "）",
-                        "(",
-                        ")",
-                        "{",
-                        "}",
-                        "[",
-                        "]",
-                        "-",
-                        "_",
-                        "－",
-                        "＿",
-                        "/",
-                        "／",
-                        "\\",
-                        "＼",
-                        "|",
-                        "｜",
-                        "~",
-                        "〜",
-                        "・",
-                        "･",
-                        "¥",
-                        "￥",
-                        "$",
-                        "＄",
-                        "%",
-                        "％",
-                        "°",
-                        "℃",
-                        "+",
-                        "＋",
-                        "×",
-                        "÷",
-                        "√",
-                        "^",
-                        "＾",
-                        "*",
-                        "＊",
-                        "@",
-                        "＠",
-                        "&",
-                        "＆",
-                        "#",
-                        "＃",
-                        "※",
-                        "=",
-                        "＝",
-                        "<",
-                        "＜",
-                        ">",
-                        "＞",
-                        ":",
-                        "：",
-                        ";",
-                        "；",
-                        "'",
-                        "＇",
-                        "\"",
-                        "＂",
-                        "`",
-                        "｀",
-                        "…",
-                        "【",
-                        "】",
-                        "『",
-                        "』",
-                        "《",
-                        "》",
-                        "〈",
-                        "〉",
-                        "［",
-                        "］",
-                        "｛",
-                        "｝"
-                      ]
+                      "type": "smart_delete_default"
                     }
                   ],
-                  "repeat": []
+                  "repeat": [
+                    {
+                      "type": "smart_delete_default"
+                    }
+                  ]
                 }
               }
             },
@@ -4168,7 +3930,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "前消"
+                    "system_image": "delete.right"
                   }
                 },
                 "press_actions": [
@@ -4178,7 +3940,7 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
+                  "duration": "light",
                   "start": [
                     {
                       "type": "delete",
@@ -4200,7 +3962,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "閉じる"
+                    "system_image": "keyboard.chevron.compact.down.fill"
                   }
                 },
                 "press_actions": [
@@ -4235,14 +3997,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
+              "type": "main_and_sub",
               "main": "あA",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "sub": "JP"
             },
             "color": "special"
           },
@@ -4253,111 +4010,18 @@
               "identifier": "qed_kana_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
                 "tab_type": "custom",
-                "identifier": "qed_util_v30"
+                "identifier": "qed_abc_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4372,14 +4036,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": ".",
-              "directions": {
-                "left": ",",
-                "top": "?",
-                "right": "!",
-                "bottom": ":"
-              }
+              "type": "main_and_sub",
+              "main": ".,!?",
+              "sub": ",:"
             },
             "color": "normal"
           },
@@ -4389,16 +4048,6 @@
               "text": "."
             }
           ],
-          "longpress_actions": {
-            "duration": "light",
-            "start": [
-              {
-                "type": "input",
-                "text": "…"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4503,7 +4152,17 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "input",
+                "text": "…"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4518,14 +4177,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "空白",
-              "directions": {
-                "left": "←",
-                "top": "貼付",
-                "right": "→",
-                "bottom": "全角"
-              }
+              "system_image": "space"
             },
             "color": "special"
           },
@@ -4535,15 +4187,6 @@
               "text": " "
             }
           ],
-          "longpress_actions": {
-            "duration": "normal",
-            "start": [
-              {
-                "type": "toggle_cursor_bar"
-              }
-            ],
-            "repeat": []
-          },
           "variations": [
             {
               "type": "flick_variation",
@@ -4551,7 +4194,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "←"
+                    "system_image": "chevron.left"
                   }
                 },
                 "press_actions": [
@@ -4562,44 +4205,7 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": -1
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "貼付"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "paste"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_tab",
-                      "tab_type": "system",
-                      "identifier": "clipboard_history_tab"
-                    }
-                  ],
+                  "start": [],
                   "repeat": []
                 }
               }
@@ -4610,7 +4216,7 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "→"
+                    "system_image": "chevron.right"
                   }
                 },
                 "press_actions": [
@@ -4621,18 +4227,29 @@
                 ],
                 "longpress_actions": {
                   "duration": "normal",
-                  "start": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ],
-                  "repeat": [
-                    {
-                      "type": "move_cursor",
-                      "count": 1
-                    }
-                  ]
+                  "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "system_image": "doc.on.clipboard"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "paste"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "normal",
+                  "start": [],
+                  "repeat": []
                 }
               }
             },
@@ -4642,13 +4259,14 @@
               "key": {
                 "design": {
                   "label": {
-                    "text": "全角"
+                    "system_image": "list.bullet.clipboard"
                   }
                 },
                 "press_actions": [
                   {
-                    "type": "input",
-                    "text": "　"
+                    "type": "move_tab",
+                    "tab_type": "system",
+                    "identifier": "clipboard_history_tab"
                   }
                 ],
                 "longpress_actions": {
@@ -4658,7 +4276,16 @@
                 }
               }
             }
-          ]
+          ],
+          "longpress_actions": {
+            "duration": "light",
+            "start": [
+              {
+                "type": "toggle_cursor_bar"
+              }
+            ],
+            "repeat": []
+          }
         }
       },
       {
@@ -4673,14 +4300,9 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "123",
-              "directions": {
-                "left": "かな",
-                "top": "CAPS",
-                "right": "ABC",
-                "bottom": "123"
-              }
+              "type": "main_and_sub",
+              "main": "記号",
+              "sub": "123 ↑\""
             },
             "color": "special"
           },
@@ -4691,8 +4313,37 @@
               "identifier": "qed_123_v30"
             }
           ],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "top",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "\""
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "\""
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＂"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
                 "type": "move_tab",
@@ -4701,101 +4352,7 @@
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "CAPS"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_caps_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "123"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_123_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
@@ -4810,14 +4367,7 @@
         "key": {
           "design": {
             "label": {
-              "type": "main_and_directions",
-              "main": "操作",
-              "directions": {
-                "left": "かな",
-                "top": "幅",
-                "right": "ABC",
-                "bottom": "タブ"
-              }
+              "text": "UTIL"
             },
             "color": "special"
           },
@@ -4828,105 +4378,18 @@
               "identifier": "qed_util_v30"
             }
           ],
+          "variations": [],
           "longpress_actions": {
-            "duration": "normal",
+            "duration": "light",
             "start": [
               {
-                "type": "enable_resizing_mode"
+                "type": "move_tab",
+                "tab_type": "custom",
+                "identifier": "qed_123_v30"
               }
             ],
             "repeat": []
-          },
-          "variations": [
-            {
-              "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "かな"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_kana_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "top",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "幅"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "enable_resizing_mode"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "right",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "ABC"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "move_tab",
-                    "tab_type": "custom",
-                    "identifier": "qed_abc_v30"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
-              "direction": "bottom",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "タブ"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "toggle_tab_bar"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
-                  "repeat": []
-                }
-              }
-            }
-          ]
+          }
         }
       },
       {
