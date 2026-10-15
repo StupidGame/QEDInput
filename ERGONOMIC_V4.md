@@ -5,13 +5,13 @@ This proposal keeps QED Input 3.0's features and tab structure, while changing o
 ## KANA
 
 ```text
-と   か   は   ⌫
-い   の   し   空白
-ん   よ   る   123
+の   か   は   ⌫
+い   と   よ   空白
+ん   し   る   123
 ABC  ま   小゛゜ 改行
 ```
 
-The right-side control column stays fixed. As in v4's initial design, `ん` is in the active 3x3 typing area while `ま` stays in the bottom row. This revision swaps the whole `い`/`と` key groups vertically on the left and the `し`/`は` key groups vertically on the right. The high-frequency `い` and `し` are now on the easier-to-reach middle row; all their existing flick outputs, auto-replacements and long presses travel with the keys. This trades some conventional row-position familiarity for easier central-row access, without splitting a kana group.
+The right-side control column stays fixed. This revision swaps whole `し`/`よ` and `と`/`の` key groups. `と` is now physically central, `し` is above `ま`, and `よ` is adjacent to `と`. Moving complete keys (rather than reassigning individual flick characters) preserves kana group learning and existing text shortcuts.
 
 ### Flick directions
 
@@ -33,8 +33,18 @@ ABC, ABC+, and CAPS retain their 3.0 key geometry and letter actions, but move t
 
 ## Rationale
 
-- Frequency-first center taps are inspired by the same principle used by Ogura-style layouts.
+- The Ogura layout emphasizes high-frequency taps and placing the **next key near the current flick's destination**. Read the original explanation https://note.com/jeebis_keyboard/n/n687c4aee3c6f and source https://github.com/JEEBIS27/azookey_ogura. QED keeps its phonetic clusters to preserve migration friendliness.
 - Conventional directional memory is preserved where possible to reduce relearning.
 - Editing and mode-switch controls remain in stable locations.
 - The proposal intentionally avoids optimizing for only left- or right-handed use.
-- The two pairwise position swaps are a testable ergonomic hypothesis rather than a measured speed guarantee. Existing muscle memory may favor the original positions; iPhone typing tests should determine whether the changes improve everyday use.
+- The position changes here are a **hypothesis**, not a demonstrated typing-speed improvement. A small, hand-picked 72-phrase set (725 hiragana characters) was scored by distance from a previous tap/flick endpoint to the next key center with illustrative flick/long-press penalties. Previous positions scored 1,532.84 versus 1,347.87 arbitrary units after these swaps (~12.1% lower model cost). The model does NOT capture typing time, conversion, learning costs, error rate, or true Japanese usage frequency; phrases like この and なの can worsen when の leaves the center. Validate on a real keyboard before recommending this layout over the previous one.
+
+## 連接と運指の追加検討
+
+- 「し→ま」が隣接し、頻出の「します」で指を動かしやすくします（「ま」の長押し「ます」は維持）。
+- 「と→し」が隣接し、「で→す」の移動距離が短くなります。
+- 「し→よ」は斜め2キーの距離で、「しょう」などの入力に利用できます。
+- 代償として「の」を中央から左上へ移したため、「この」「なの」などでは悪化する可能性があります。
+- おぐら配列の『頻度＋フリック後の進行方向』を参考にしましたが、従来フリックと同じ母音方向、拗音の自動化、編集キー配置は維持しています。
+
+注：上記のモデル値は代表性のある大規模コーパスではなく、実機速度試験の代用にはなりません。

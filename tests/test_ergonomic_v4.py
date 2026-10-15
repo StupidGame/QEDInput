@@ -21,23 +21,33 @@ class ErgonomicV4Test(unittest.TestCase):
         self.assertEqual(pos["ABC"], (0, 3))
         self.assertEqual(pos["小゛゜"], (2, 3))
 
-    def test_high_frequency_kana_are_in_middle_row(self):
+    def test_ogura_inspired_kana_positions(self):
         data = load("QED_KANA_4.0.json")
         keys = data["interface"]["keys"]
         positions = {main_label(w): (w["specifier"]["x"], w["specifier"]["y"])
                      for w in keys if w.get("key_type") == "custom"}
         self.assertEqual(positions["い"], (0, 1))
-        self.assertEqual(positions["し"], (2, 1))
-        self.assertEqual(positions["と"], (0, 0))
+        self.assertEqual(positions["し"], (1, 2))
+        self.assertEqual(positions["と"], (1, 1))
         self.assertEqual(positions["は"], (2, 0))
-        self.assertEqual(positions["の"], (1, 1))
-        self.assertEqual(positions["よ"], (1, 2))
+        self.assertEqual(positions["の"], (0, 0))
+        self.assertEqual(positions["よ"], (2, 1))
         # All legacy long-press shortcuts and contracted-syllable rules survive.
         ma = next(w["key"] for w in keys if main_label(w) == "ま")
         self.assertEqual(ma["longpress_actions"]["start"], [{"type": "input", "text": "ます"}])
         yo = next(w["key"] for w in keys if main_label(w) == "よ")
         self.assertEqual(yo["press_actions"][0], {"type": "input", "text": "よ"})
         self.assertEqual(yo["press_actions"][1]["table"]["しよ"], "しょ")
+
+    def test_common_transition_adjacency(self):
+        data = load("QED_KANA_4.0.json")
+        positions = {main_label(w): (w["specifier"]["x"], w["specifier"]["y"])
+                     for w in data["interface"]["keys"] if w.get("key_type") == "custom"}
+        def manhattan(a, b):
+            return sum(abs(positions[a][i] - positions[b][i]) for i in (0, 1))
+        self.assertEqual(manhattan("し", "ま"), 1)
+        self.assertEqual(manhattan("と", "し"), 1)
+        self.assertEqual(manhattan("し", "よ"), 2)
 
     def test_kana_exclamation_shortcut(self):
         data = load("QED_KANA_4.0.json")
