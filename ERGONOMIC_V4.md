@@ -29,7 +29,7 @@ Existing behavior for `い`, `よ`, `ん`, `小゛゜`, deletion, space, cursor 
 
 ## Other tabs
 
-ABC, ABC+, CAPS, 123, UTILITY, and MFM preserve their 3.0 key geometry and actions. Their identifiers and links are updated to v4 so the proposal can coexist with 3.0.
+ABC, ABC+, and CAPS retain their 3.0 key geometry and letter actions, but move the half-width `@` shortcut from the far-left `1` key's left flick to **N ↓** near the right thumb. Long-pressing that flick still inputs full-width `＠`, and the N key visibly labels the new shortcut. All other key actions stay unchanged. The 123, UTILITY, and MFM tabs retain their 3.0 geometry and actions. All v4 identifiers and links coexist with 3.0.
 
 ## Rationale
 

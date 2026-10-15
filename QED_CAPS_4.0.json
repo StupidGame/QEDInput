@@ -39,33 +39,6 @@
           "variations": [
             {
               "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "@"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "@"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "light",
-                  "start": [
-                    {
-                      "type": "input",
-                      "text": "＠"
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
               "direction": "top",
               "key": {
                 "design": {
@@ -3867,7 +3840,8 @@
               "main": "N",
               "directions": {
                 "left": "Ｎ",
-                "right": "ｎ"
+                "right": "ｎ",
+                "bottom": "@"
               }
             },
             "color": "normal"
@@ -3927,6 +3901,33 @@
                     {
                       "type": "input",
                       "text": "ｎ"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "@"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "@"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＠"
                     }
                   ],
                   "repeat": []

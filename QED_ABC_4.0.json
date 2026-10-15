@@ -39,33 +39,6 @@
           "variations": [
             {
               "type": "flick_variation",
-              "direction": "left",
-              "key": {
-                "design": {
-                  "label": {
-                    "text": "@"
-                  }
-                },
-                "press_actions": [
-                  {
-                    "type": "input",
-                    "text": "@"
-                  }
-                ],
-                "longpress_actions": {
-                  "duration": "light",
-                  "start": [
-                    {
-                      "type": "input",
-                      "text": "＠"
-                    }
-                  ],
-                  "repeat": []
-                }
-              }
-            },
-            {
-              "type": "flick_variation",
               "direction": "top",
               "key": {
                 "design": {
@@ -3593,7 +3566,13 @@
         "key": {
           "design": {
             "label": {
-              "text": "n"
+              "type": "main_and_directions",
+              "main": "n",
+              "directions": {
+                "left": "ｎ",
+                "top": "Ｎ",
+                "bottom": "@"
+              }
             },
             "color": "normal"
           },
@@ -3644,6 +3623,33 @@
                 "longpress_actions": {
                   "duration": "normal",
                   "start": [],
+                  "repeat": []
+                }
+              }
+            },
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "@"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "@"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＠"
+                    }
+                  ],
                   "repeat": []
                 }
               }

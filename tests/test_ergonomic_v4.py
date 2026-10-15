@@ -45,6 +45,27 @@ class ErgonomicV4Test(unittest.TestCase):
         for path in ROOT.glob("QED_*_4.0.json"):
             self.assertNotIn("_v30", path.read_text(encoding="utf-8"))
 
+    def test_english_at_shortcut_near_thumb(self):
+        # English v4 uses the same one-flick @ shortcut in all letter modes.
+        for name in ("ABC", "ABC_Plus", "CAPS"):
+            with self.subTest(name=name):
+                data = load(f"QED_{name}_4.0.json")
+                keys = data["interface"]["keys"]
+                one = next(w["key"] for w in keys if w["specifier"]["x"] == 0 and w["specifier"]["y"] == 0)
+                n = next(w["key"] for w in keys if w["specifier"]["x"] == 13 and w["specifier"]["y"] == 3)
+                one_flicks = {v["direction"]: v["key"] for v in one["variations"]}
+                n_flicks = {v["direction"]: v["key"] for v in n["variations"]}
+                self.assertNotIn("left", one_flicks)
+                self.assertEqual(n_flicks["bottom"]["press_actions"], [{"type": "input", "text": "@"}])
+                self.assertEqual(n_flicks["bottom"]["longpress_actions"]["start"], [{"type": "input", "text": "＠"}])
+                self.assertEqual(n["design"]["label"]["directions"]["bottom"], "@")
+                self.assertEqual(sum(
+                    action.get("text") == "@"
+                    for wrapper in keys
+                    for key in [wrapper["key"]] + [v["key"] for v in wrapper["key"].get("variations", [])]
+                    for action in key.get("press_actions", [])
+                ), 1)
+
     def test_bundle_matches_individuals(self):
         bundle = load("00_QED_Input_KANA_DEFAULT_4.0.json")
         names = ("KANA","ABC","ABC_Plus","CAPS","123","UTILITY","MFM")
