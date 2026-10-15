@@ -123,6 +123,9 @@ class ErgonomicV4Test(unittest.TestCase):
                        for w in data["interface"]["keys"]}
         self.assertEqual(by_position[(8, 1)]["press_actions"], [{"type": "input", "text": "@"}])
         self.assertEqual(by_position[(0, 1)]["press_actions"], [{"type": "input", "text": "*"}])
+        at_flick = next(v["key"] for v in by_position[(8, 1)]["variations"] if v["direction"] == "bottom")
+        self.assertEqual(at_flick["press_actions"], [{"type": "input", "text": "*"}])
+        self.assertEqual(at_flick["longpress_actions"]["start"], [{"type": "input", "text": "＊"}])
         self.assertEqual(next(v["key"] for v in by_position[(0, 0)]["variations"]
                               if v["direction"] == "left")["press_actions"], [{"type": "input", "text": "@"}])
         minus = {v["direction"]: v["key"] for v in by_position[(12, 1)]["variations"]}

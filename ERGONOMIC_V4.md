@@ -29,7 +29,7 @@ Existing behavior for `い`, `よ`, `ん`, `ま` (including the long-press `ま�
 
 ## Other tabs
 
-ABC, ABC+, and CAPS retain their 3.0 key geometry and letter actions, but move the half-width `@` shortcut from the far-left `1` key's left flick to **N ↓** near the right thumb. Long-pressing that flick still inputs full-width `＠`, and the N key visibly labels the new shortcut. All other key actions stay unchanged. The 123, UTILITY, and MFM tabs retain their 3.0 geometry and actions. All v4 identifiers and links coexist with 3.0.
+ABC, ABC+, and CAPS keep familiar QWERTY letter and digit positions while retaining the half-width `@` shortcut on **N ↓** (held-flick full-width `＠`). The English **記号** key now has direct punctuation flicks. The 123 and UTILITY tabs keep their original tap/hold outputs but gain symbol shortcuts, and 123 repositions `@`/`*`. MFM remains unchanged. All v4 identifiers and links coexist with 3.0.
 
 ## Rationale
 
@@ -69,7 +69,7 @@ The key still taps to 123 and long-presses to UTILITY. ABC Shift's original punc
 
 ### 123 symbol tab
 
-- The `@` and `*` tap keys swap places in the 123 tab so `@` is central (x=8, y=1). The `1` key still has the old left-flick `@`, and the `*` tap has merely moved to the far-left slot; the `1` key's down-flick `*` is retained.
+- The `@` and `*` tap keys swap places in the 123 tab so `@` is central (x=8, y=1). The `1` key still has the old left-flick `@`, and the `*` tap has merely moved to the far-left slot; the `1` key's down-flick `*` is retained. Also, the newly centered `@` tap key has a **down-flick `*`** (held-flick `＊`), so `*` stays easy to access.
 - The second-row `-` key gains **down-flick `_`** (hold: `＿`).
 - The second-row `=` key gains **left `<`, up `==`, right `>`, down `!=`**. Hold on `<` and `>` gives `＜` / `＞`.
 - The row of digits, every original symbol tap and long-press, quotes, brackets, backspace and bottom mode controls remain functional.

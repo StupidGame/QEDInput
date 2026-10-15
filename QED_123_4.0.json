@@ -1466,7 +1466,9 @@
         "key": {
           "design": {
             "label": {
-              "text": "@"
+              "type": "main_and_sub",
+              "main": "@",
+              "sub": "↓*"
             },
             "color": "normal"
           },
@@ -1476,7 +1478,35 @@
               "text": "@"
             }
           ],
-          "variations": [],
+          "variations": [
+            {
+              "type": "flick_variation",
+              "direction": "bottom",
+              "key": {
+                "design": {
+                  "label": {
+                    "text": "*"
+                  }
+                },
+                "press_actions": [
+                  {
+                    "type": "input",
+                    "text": "*"
+                  }
+                ],
+                "longpress_actions": {
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＊"
+                    }
+                  ],
+                  "repeat": []
+                }
+              }
+            }
+          ],
           "longpress_actions": {
             "duration": "light",
             "start": [
