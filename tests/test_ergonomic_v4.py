@@ -21,6 +21,33 @@ class ErgonomicV4Test(unittest.TestCase):
         self.assertEqual(pos["ABC"], (0, 3))
         self.assertEqual(pos["小゛゜"], (2, 3))
 
+    def test_high_frequency_kana_are_in_middle_row(self):
+        data = load("QED_KANA_4.0.json")
+        keys = data["interface"]["keys"]
+        positions = {main_label(w): (w["specifier"]["x"], w["specifier"]["y"])
+                     for w in keys if w.get("key_type") == "custom"}
+        self.assertEqual(positions["い"], (0, 1))
+        self.assertEqual(positions["し"], (2, 1))
+        self.assertEqual(positions["と"], (0, 0))
+        self.assertEqual(positions["は"], (2, 0))
+        self.assertEqual(positions["の"], (1, 1))
+        self.assertEqual(positions["よ"], (1, 2))
+        # All legacy long-press shortcuts and contracted-syllable rules survive.
+        ma = next(w["key"] for w in keys if main_label(w) == "ま")
+        self.assertEqual(ma["longpress_actions"]["start"], [{"type": "input", "text": "ます"}])
+        yo = next(w["key"] for w in keys if main_label(w) == "よ")
+        self.assertEqual(yo["press_actions"][0], {"type": "input", "text": "よ"})
+        self.assertEqual(yo["press_actions"][1]["table"]["しよ"], "しょ")
+
+    def test_kana_exclamation_shortcut(self):
+        data = load("QED_KANA_4.0.json")
+        number_key = next(w["key"] for w in data["interface"]["keys"] if main_label(w) == "123")
+        flicks = {v["direction"]: v["key"] for v in number_key["variations"]}
+        self.assertEqual(flicks["left"]["press_actions"], [{"type": "input", "text": "！"}])
+        self.assertEqual(flicks["left"]["longpress_actions"]["start"], [{"type": "input", "text": "!"}])
+        self.assertEqual(flicks["top"]["press_actions"], [{"type": "input", "text": '"'}])
+        self.assertIn("←！", number_key["design"]["label"]["sub"])
+
     def test_direction_maps(self):
         data = load("QED_KANA_4.0.json")
         expected = {

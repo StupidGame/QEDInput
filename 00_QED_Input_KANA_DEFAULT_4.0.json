@@ -19,7 +19,7 @@
           "specifier_type": "grid_fit",
           "specifier": {
             "x": 0,
-            "y": 0,
+            "y": 1,
             "width": 1,
             "height": 1
           },
@@ -329,7 +329,7 @@
           "specifier_type": "grid_fit",
           "specifier": {
             "x": 2,
-            "y": 0,
+            "y": 1,
             "width": 1,
             "height": 1
           },
@@ -696,7 +696,7 @@
           "specifier_type": "grid_fit",
           "specifier": {
             "x": 0,
-            "y": 1,
+            "y": 0,
             "width": 1,
             "height": 1
           },
@@ -973,7 +973,7 @@
           "specifier_type": "grid_fit",
           "specifier": {
             "x": 2,
-            "y": 1,
+            "y": 0,
             "width": 1,
             "height": 1
           },
@@ -2147,7 +2147,7 @@
               "label": {
                 "type": "main_and_sub",
                 "main": "123",
-                "sub": "↑\""
+                "sub": "←！ ↑\""
               },
               "color": "special"
             },
@@ -2180,6 +2180,33 @@
                       {
                         "type": "input",
                         "text": "＂"
+                      }
+                    ],
+                    "repeat": []
+                  }
+                }
+              },
+              {
+                "type": "flick_variation",
+                "direction": "left",
+                "key": {
+                  "design": {
+                    "label": {
+                      "text": "！"
+                    }
+                  },
+                  "press_actions": [
+                    {
+                      "type": "input",
+                      "text": "！"
+                    }
+                  ],
+                  "longpress_actions": {
+                    "duration": "light",
+                    "start": [
+                      {
+                        "type": "input",
+                        "text": "!"
                       }
                     ],
                     "repeat": []

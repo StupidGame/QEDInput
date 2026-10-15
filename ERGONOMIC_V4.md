@@ -5,13 +5,13 @@ This proposal keeps QED Input 3.0's features and tab structure, while changing o
 ## KANA
 
 ```text
-い   か   し   ⌫
-と   の   は   空白
+と   か   は   ⌫
+い   の   し   空白
 ん   よ   る   123
 ABC  ま   小゛゜ 改行
 ```
 
-The right-side control column stays fixed. `ん` moves from the bottom row into the active 3x3 typing area; `ま` takes its old bottom-row position.
+The right-side control column stays fixed. As in v4's initial design, `ん` is in the active 3x3 typing area while `ま` stays in the bottom row. This revision swaps the whole `い`/`と` key groups vertically on the left and the `し`/`は` key groups vertically on the right. The high-frequency `い` and `し` are now on the easier-to-reach middle row; all their existing flick outputs, auto-replacements and long presses travel with the keys. This trades some conventional row-position familiarity for easier central-row access, without splitting a kana group.
 
 ### Flick directions
 
@@ -25,7 +25,7 @@ The center-tap optimization is preserved, but the remaining kana are placed clos
 - ま: ←み ↑む →め ↓も
 - る: ←り ↑ら →れ ↓ろ
 
-Existing behavior for `い`, `よ`, `ん`, `小゛゜`, deletion, space, cursor movement, clipboard, long-press voiced sounds, automatic small ゃゅょ, and tab switching is retained.
+Existing behavior for `い`, `よ`, `ん`, `ま` (including the long-press `ます` shortcut), `小゛゜`, deletion, space, cursor movement, clipboard, long-press voiced sounds, automatic small ゃゅょ, and tab switching is retained. The `123` key gains a **left flick for full-width `！`** and a long-press of that flick for ASCII `!`, providing direct exclamation entry without removing the existing `よ →` question-mark / long-press exclamation shortcut. The `123` key label shows `←！ ↑"`.
 
 ## Other tabs
 
@@ -37,3 +37,4 @@ ABC, ABC+, and CAPS retain their 3.0 key geometry and letter actions, but move t
 - Conventional directional memory is preserved where possible to reduce relearning.
 - Editing and mode-switch controls remain in stable locations.
 - The proposal intentionally avoids optimizing for only left- or right-handed use.
+- The two pairwise position swaps are a testable ergonomic hypothesis rather than a measured speed guarantee. Existing muscle memory may favor the original positions; iPhone typing tests should determine whether the changes improve everyday use.
