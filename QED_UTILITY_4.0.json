@@ -705,8 +705,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "･"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -727,8 +732,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "~"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1223,8 +1233,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＼"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1245,8 +1260,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "||"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1267,8 +1287,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "&&"
+                    }
+                  ],
                   "repeat": []
                 }
               }
@@ -1289,8 +1314,13 @@
                   }
                 ],
                 "longpress_actions": {
-                  "duration": "normal",
-                  "start": [],
+                  "duration": "light",
+                  "start": [
+                    {
+                      "type": "input",
+                      "text": "＿"
+                    }
+                  ],
                   "repeat": []
                 }
               }

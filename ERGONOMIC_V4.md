@@ -48,3 +48,37 @@ ABC, ABC+, and CAPS retain their 3.0 key geometry and letter actions, but move t
 - おぐら配列の『頻度＋フリック後の進行方向』を参考にしましたが、従来フリックと同じ母音方向、拗音の自動化、編集キー配置は維持しています。
 
 注：上記のモデル値は代表性のある大規模コーパスではなく、実機速度試験の代用にはなりません。
+
+
+## English / symbols ergonomic follow-up (2026-10-16)
+
+The alphabetic keys stay QWERTY and the top digits, Shift, CAPS, punctuation, space, tab switching and N-down `@` are unchanged. QWERTY's familiarity is more valuable than an untested shuffle of the letter positions.
+
+### One-gesture shortcuts (ABC / ABC+ / CAPS)
+
+All three English modes give the same directions to the wide lower-row **記号** key, without switching to the 123 tab:
+
+| Action on 記号 | Output | Hold at flick destination |
+|---|---|---|
+| left | `-` | fullwidth `－` |
+| top (original) | `"` | fullwidth `＂` |
+| right | `/` | fullwidth `／` |
+| bottom | `'` | fullwidth `＇` |
+
+The key still taps to 123 and long-presses to UTILITY. ABC Shift's original punctuation flicks, bottom-row punctuation `.,!?`, and the special B / N / M shortcuts are preserved.
+
+### 123 symbol tab
+
+- The `@` and `*` tap keys swap places in the 123 tab so `@` is central (x=8, y=1). The `1` key still has the old left-flick `@`, and the `*` tap has merely moved to the far-left slot; the `1` key's down-flick `*` is retained.
+- The second-row `-` key gains **down-flick `_`** (hold: `＿`).
+- The second-row `=` key gains **left `<`, up `==`, right `>`, down `!=`**. Hold on `<` and `>` gives `＜` / `＞`.
+- The row of digits, every original symbol tap and long-press, quotes, brackets, backspace and bottom mode controls remain functional.
+
+### UTILITY
+
+- 開発 flick-and-hold shortcuts: `\\`→`＼`, `|`→`||`, `&`→`&&`, `_`→`＿`.
+- 記号 flick-and-hold shortcuts: `・`→`･`, `〜`→`~`. Other symbol actions are unchanged.
+
+### Ergonomics and caveats
+
+This prioritizes frequently needed ASCII symbols closer to the bottom right-hand thumb reach, while keeping the QWERTY positions and numerical tap order. The new shortcuts require fewer mode changes or long top-row reaches but **do not constitute measured typing-speed improvements**. Fullwidth variants require a held flick as before. The 123 @/* swap adds relearning cost, and left-handed users may prefer the previous placement. All changes need an on-device Custard/azooKey import and touch test.

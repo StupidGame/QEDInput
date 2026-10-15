@@ -103,6 +103,46 @@ class ErgonomicV4Test(unittest.TestCase):
                     for action in key.get("press_actions", [])
                 ), 1)
 
+    def test_english_symbol_key_shortcuts_and_original_behavior(self):
+        for name in ("ABC", "ABC_Plus", "CAPS"):
+            with self.subTest(name=name):
+                data = load(f"QED_{name}_4.0.json")
+                key = next(w["key"] for w in data["interface"]["keys"]
+                           if (w["specifier"]["x"], w["specifier"]["y"]) == (11, 4))
+                self.assertEqual(key["press_actions"][0]["identifier"], "qed_123_v40")
+                self.assertEqual(key["longpress_actions"]["start"][0]["identifier"], "qed_util_v40")
+                flicks = {v["direction"]: v["key"] for v in key["variations"]}
+                for direction, normal, full in (("left", "-", "－"), ("top", "\"", "＂"),
+                                                ("right", "/", "／"), ("bottom", "'", "＇")):
+                    self.assertEqual(flicks[direction]["press_actions"], [{"type": "input", "text": normal}])
+                    self.assertEqual(flicks[direction]["longpress_actions"]["start"], [{"type": "input", "text": full}])
+
+    def test_symbol_tab_centered_at_and_operator_flicks(self):
+        data = load("QED_123_4.0.json")
+        by_position = {(w["specifier"]["x"], w["specifier"]["y"]): w["key"]
+                       for w in data["interface"]["keys"]}
+        self.assertEqual(by_position[(8, 1)]["press_actions"], [{"type": "input", "text": "@"}])
+        self.assertEqual(by_position[(0, 1)]["press_actions"], [{"type": "input", "text": "*"}])
+        self.assertEqual(next(v["key"] for v in by_position[(0, 0)]["variations"]
+                              if v["direction"] == "left")["press_actions"], [{"type": "input", "text": "@"}])
+        minus = {v["direction"]: v["key"] for v in by_position[(12, 1)]["variations"]}
+        self.assertEqual(minus["bottom"]["press_actions"], [{"type": "input", "text": "_"}])
+        self.assertEqual(minus["bottom"]["longpress_actions"]["start"], [{"type": "input", "text": "＿"}])
+        equal = {v["direction"]: v["key"] for v in by_position[(14, 1)]["variations"]}
+        self.assertEqual({d: key["press_actions"][0]["text"] for d, key in equal.items()},
+                         {"left": "<", "top": "==", "right": ">", "bottom": "!="})
+
+    def test_utility_code_and_symbol_holds(self):
+        data = load("QED_UTILITY_4.0.json")
+        by_position = {(w["specifier"]["x"], w["specifier"]["y"]): w["key"]
+                       for w in data["interface"]["keys"]}
+        dev = {v["direction"]: v["key"] for v in by_position[(1, 2)]["variations"]}
+        sym = {v["direction"]: v["key"] for v in by_position[(1, 1)]["variations"]}
+        for d, t in {"left": "＼", "top": "||", "right": "&&", "bottom": "＿"}.items():
+            self.assertEqual(dev[d]["longpress_actions"]["start"], [{"type": "input", "text": t}])
+        self.assertEqual(sym["left"]["longpress_actions"]["start"], [{"type": "input", "text": "･"}])
+        self.assertEqual(sym["top"]["longpress_actions"]["start"], [{"type": "input", "text": "~"}])
+
     def test_bundle_matches_individuals(self):
         bundle = load("00_QED_Input_KANA_DEFAULT_4.0.json")
         names = ("KANA","ABC","ABC_Plus","CAPS","123","UTILITY","MFM")
